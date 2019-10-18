@@ -1,0 +1,18 @@
+[
+  {
+    "item": "bread",
+    "marked": false
+  },
+  {
+    "item": "cheese",
+    "marked": false
+  },
+  {
+    "item": "milk",
+    "marked": false
+  },
+  {
+    "item": "olives",
+    "marked": false
+  }
+]

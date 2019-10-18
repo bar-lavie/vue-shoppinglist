@@ -1,0 +1,67 @@
+body {
+  color: #999;
+}
+.header {
+  width: 100%;
+}
+
+.white-text {
+  color: #fff;
+}
+.light-text {
+  color: #999;
+}
+.dark-text {
+  color: #000;
+}
+.light-border-color {
+  border: 1px solid #d3d3d3;
+}
+
+.stripe {
+  background: rgba(0, 229, 145, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(0, 229, 145, 1) 0%,
+    rgba(47, 239, 188, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(0, 229, 145, 1)),
+    color-stop(100%, rgba(47, 239, 188, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(0, 229, 145, 1) 0%,
+    rgba(47, 239, 188, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(0, 229, 145, 1) 0%,
+    rgba(47, 239, 188, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(0, 229, 145, 1) 0%,
+    rgba(47, 239, 188, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(0, 229, 145, 1) 0%,
+    rgba(47, 239, 188, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=1 );
+}
+
+.header p {
+  font-size: 2em;
+}
+
+.item-input {
+  border: none;
+}
+
+.delete {
+  text-decoration: Line-Through;
+}
